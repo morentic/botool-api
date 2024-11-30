@@ -1,0 +1,5 @@
+http://localhost:80 {
+    root * /var/www/html/public
+    file_server
+    php_fastcgi php:9000
+}
