@@ -1,5 +1,6 @@
 networks:
   app:
+    name: botool_app
 
 volumes:
   db_data:
